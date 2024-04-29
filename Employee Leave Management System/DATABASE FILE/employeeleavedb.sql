@@ -41,7 +41,7 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`id`, `UserName`, `Password`, `fullname`, `email`, `updationDate`) VALUES
-(4, 'harshith', '25d55ad283aa400af464c76d713c07ad', 'Harshith Reddy C', 'harshithreddyc2003@gmail.com', '2023-11-12 15:15:39');
+(4, 'harshith', '25d55ad283aa400af464c76d713c07ad', 'Harshith Reddy C', 'harshithr@gmail.com', '2023-11-12 15:15:39');
 
 -- --------------------------------------------------------
 
@@ -98,8 +98,8 @@ CREATE TABLE `tblemployees` (
 --
 
 INSERT INTO `tblemployees` (`id`, `EmpId`, `FirstName`, `LastName`, `EmailId`, `Password`, `Gender`, `Dob`, `Department`, `Address`, `City`, `Country`, `Phonenumber`, `Status`, `RegDate`) VALUES
-(9, '563125', 'Harshith ', 'Reddy C', 'harshithreddyc2003@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'Male', '2003-02-15', 'Human Resource', 'Chintamani, Chikkaballapura, Karnataka', 'Chintamani', 'India', '8088056626', 1, '2023-11-12 15:17:16'),
-(10, '2', 'Harsha', 'C', 'harsha2003@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'Male', '2003-01-01', 'Information Technology', 'Karnataka', 'Chintamani', 'India', '9035525052', 1, '2023-11-21 09:26:49'),
+(9, '563125', 'Harshith ', 'Reddy C', 'harshith2003@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'Male', '2003-02-15', 'Human Resource', 'Mani, Chikkaballapura, Karnataka', 'Mani', 'India','1234567890', 1, '2023-11-12 15:17:16'),
+(10, '2', 'Harsha', 'C', 'harsha2003@gmail.com', '25d55ad283aa400af464c76d713c07ad', 'Male', '2003-01-01', 'Information Technology', 'Karnataka', 'Mani', 'India', '0987654321', 1, '2023-11-21 09:26:49'),
 (11, '3', 'Bharat', 'B', 'invalid@mail.com', 'e10adc3949ba59abbe56e057f20f883e', 'Male', '', 'Sales', ' Karnataka', 'Bangalore', 'India', 'afehkj', 0, '2023-11-22 03:29:32');
 
 -- --------------------------------------------------------
